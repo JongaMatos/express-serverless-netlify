@@ -6,7 +6,7 @@ const api = express();
 const router = Router();
 
 
-router.get('/', (req, res) => res.send({ message: 'Hello World!' }));
+router.get('/', (req, res) => res.send({ message: 'Source code at https://github.com/JongaMatos/express-serverless-netlify' }));
 
 api.use('/', router);
 
